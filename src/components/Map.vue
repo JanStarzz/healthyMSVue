@@ -11,9 +11,12 @@
 <script>
 // 引入
 import echarts from 'echarts'
+
 export default {
   data () {
+
     return {
+
       option: {
         title: {
           text: '全国疫情地图',
@@ -98,6 +101,7 @@ export default {
         this.$message.success('页面刷新成功')
         // 数据提取
         var plagueData = JSON.parse(res.data.data)
+        console.log(plagueData)
         var childrenData = plagueData.areaTree[0].children
         // 存放数据
         var nowData = []

@@ -29,6 +29,7 @@ export default {
       navList: [
         { name: '/Map', navItem: '疫情地图' },
         { name: '/Statistics', navItem: '疫情统计' },
+        { name: '/RiskArea', navItem: '风险地区' },
         { name: '/RumorIdentification', navItem: '谣言鉴别' },
         { name: '/news', navItem: '疫情动态' },
         { name: '/periphery', navItem: '周边疫情' },

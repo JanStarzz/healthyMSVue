@@ -8,6 +8,7 @@ import Periphery from '../components/Periphery.vue'
 import RumorIdentification from '../components/RumorIdentification.vue'
 import News from '../components/News.vue'
 import About from '../components/About.vue'
+import RiskArea from '../components/RiskArea'
 
 Vue.use(VueRouter)
 
@@ -28,6 +29,10 @@ const routes = [
       {
         path: '/Statistics',
         component: Statistics
+      },
+      {
+        path: '/RiskArea',
+        component: RiskArea
       },
       {
         path: '/periphery',
